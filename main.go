@@ -1,19 +1,12 @@
-package kingsman
-
-import (
-	"log"
-	"os"
-)
-
 package main
 
 import (
-"database/sql"
-"log"
-"os"
+	"database/sql"
+	"log"
+	"os"
 
-"github.com/joho/godotenv"
-_ "github.com/go-sql-driver/mysql"
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/joho/godotenv"
 )
 
 func main() {
